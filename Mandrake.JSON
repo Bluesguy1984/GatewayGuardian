@@ -1,0 +1,242 @@
+{
+"appversion":"20201025",
+"exportid":"20220129135504",
+"name":"Mandrake",
+"playername":"Gabe",
+"version":3.0,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":15,"roll":"12-","shortname":"str","name":"Strength","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"HTH Damage 3d6  END [1]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":23,"roll":"14-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"int":{"value":18,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":10,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":15,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PRE Attack: 3d6"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":5,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":14,"roll":"12-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"14/20 PD (0/6 rPD)"},
+"pdr":{"value":14,"roll":"12-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"14/20 PD (0/6 rPD)"},
+"ed":{"value":14,"roll":"12-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"14/20 ED (0/6 rED)"},
+"edr":{"value":14,"roll":"12-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"14/20 ED (0/6 rED)"},
+"per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":14,"roll":"12-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"body":{"value":12,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"end":{"value":56,"roll":"20-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":56,"roll":"20-","mod":0},"secondary":{"value":56,"roll":"20-","mod":0},"notes":""},
+"stun":{"value":40,"roll":"17-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"16m","noncombat":"32m","primary":{"combat":{"description":"16m","value":16},"noncombat":{"description":"32m","value":32}},"secondary":{"combat":{"description":"16m","value":16},"noncombat":{"description":"32m","value":32}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Science Skill (Biology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662122021,"type":"Science Skill","input":"Biology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Biology 13-"},
+	{"name":"Science Skill (Botany) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1641662145534,"type":"Science Skill","input":"Botany","level":"1","active":"4","base":"4","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Botany 14-"},
+	{"name":"PS (Botanist) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662731274,"type":"Professional Skill","input":"Botanist","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Botanist 13-"},
+	{"name":"KS (Bio-Chemistry) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662421601,"type":"KS","input":"Bio-Chemistry","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Bio-Chemistry 13-"},
+	{"name":"KS (Chemistry) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662402018,"type":"KS","input":"Chemistry","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Chemistry 13-"},
+	{"name":"KS (Flora & Fauna) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662274953,"type":"KS","input":"Flora & Fauna","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Flora & Fauna 13-"},
+	{"name":"KS (Math) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662515247,"type":"KS","input":"Math","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Math 13-"},
+	{"name":"KS (Physics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662442157,"type":"KS","input":"Physics","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Physics 13-"},
+	{"name":"Language (Latin) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1641662539182,"type":"Language","input":"Latinbasic conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[{"XMLID":"LITERACY","name":"","uid":1641662567274,"cost":"1","type":"literate","input":"","level":"0"}],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Latin (basic conversation; literate)"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1641662581365,"type":"Language","input":"Englishimitate dialects","level":"0","active":"6","base":"6","XMLID":"LANGUAGES","modifiers":[],"adders":[{"XMLID":"LITERACY","name":"","uid":1641662613308,"cost":"1","type":"literate","input":"","level":"0"}],"option":"imitate dialects","optionAlias":"imitate dialects","optionID":"DIALECTS","text":"Language: English (imitate dialects; literate)"},
+	{"name":"Bureaucratics ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1641662926438,"type":"Bureaucratics","input":"","level":"0","active":"3","base":"3","XMLID":"BUREAUCRATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bureaucratics 12-"},
+	{"name":"Charm ","stat":"PRE","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1641662945030,"type":"Charm","input":"","level":"0","active":"1","base":"1","XMLID":"CHARM","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Charm 8-"},
+	{"name":"Cramming ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1641663111795,"type":"Cramming","input":"","level":"0","active":"5","base":"5","XMLID":"CRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Cramming "},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662822862,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 13-"},
+	{"name":"Climbing ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662977002,"type":"Climbing","input":"","level":"0","active":"3","base":"3","XMLID":"CLIMBING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Climbing 13-"},
+	{"name":"Navigation ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641663213550,"type":"Navigation","input":"","level":"0","active":"2","base":"2","XMLID":"NAVIGATION","modifiers":[],"adders":[{"XMLID":"LAND","name":"","uid":1641663244278,"cost":"2","type":"Land","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Navigation (Land) 13-"},
+	{"name":"Survival ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1641662665650,"type":"Survival","input":"","level":"0","active":"6","base":"6","XMLID":"SURVIVAL","modifiers":[],"adders":[{"XMLID":"TEMPERATE","name":"","uid":1641662913463,"cost":"2","type":"Temperate/Subtropical","input":"","level":"0"},{"XMLID":"MOUNTAIN","name":"","uid":1641662913464,"cost":"2","type":"Mountain","input":"","level":"0"},{"XMLID":"DESERT","name":"","uid":1641662913465,"cost":"2","type":"Desert","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Survival (Temperate/Subtropical, Desert, Mountain) 13-"},
+	{"name":"Tracking ","stat":"INT","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1641662649242,"type":"Tracking","input":"","level":"0","active":"1","base":"1","XMLID":"TRACKING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Tracking 8-"},
+	{"name":"Penalty Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1641667844232,"type":"Penalty Skill Levels","input":"to offset a specific negative OCV modifier with any three maneuvers or tight group","level":"3","active":"6","base":"6","XMLID":"PENALTY_SKILL_LEVELS","modifiers":[],"adders":[],"option":"to offset a specific negative OCV modifier with any three maneuvers or tight group","optionAlias":"Plant Manipulation MP vs. Range","optionID":"THREE","text":"+3 Plant Manipulation MP vs. Range"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1641667891412,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"1","active":"5","base":"5","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Plant Manipulation MP","optionID":"BROAD","text":"+1 with Plant Manipulation MP"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1641667910619,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"1","active":"3","base":"3","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a small group of attacks","optionAlias":"with Plant Punch","optionID":"TIGHT","text":"+1 with Plant Punch"}],
+"talents":[
+	{"name":"Combat Luck ","roll":"","uid":1641663295343,"type":"Combat Luck","input":"","level":"2","active":"12","base":"12","XMLID":"COMBAT_LUCK","modifiers":[],"adders":[]},
+	{"name":"Bump Of Direction ","roll":"","uid":1641663437106,"type":"Bump Of Direction","input":"","level":"0","active":"3","base":"3","XMLID":"BUMP_OF_DIRECTION","modifiers":[],"adders":[]},
+	{"name":"Environmental Movement ","roll":"","uid":1641663484931,"type":"Environmental Movement","input":"no penalties on moving thru sand, underbrush","level":"0","active":"2","base":"2","XMLID":"ENVIRONMENTAL_MOVEMENT","modifiers":[],"adders":[]},
+	{"name":"Striking Appearance ","roll":"","uid":1641663634623,"type":"Striking Appearance","input":"vs. all characters","level":"2","active":"6","base":"6","XMLID":"STRIKING_APPEARANCE","modifiers":[],"adders":[]}],
+"perks":[
+	{"name":"Fringe Benefit ","roll":"","uid":1641663348355,"type":"Fringe Benefit","input":"","level":"0","active":"3","base":"3","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1641663384445,"type":"Membership","input":"","level":"0"}]}],
+"disads":[
+	{"name":"Psychological Complication","roll":"","uid":1641668108279,"type":"Psychological Complication","input":"Introvert","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1641669079712,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1641669079718,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1641668159160,"type":"Psychological Complication","input":"In love with Cel","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1641669130743,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1641669130749,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1641668212111,"type":"Social Complication","input":"Secret ID","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1641669183975,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1641669183981,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1641669403422,"type":"Physical Complication","input":"Urban environments","level":"0","active":"10","base":"10","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1641669408188,"type":"Limitation Occurs","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1641669408195,"type":"Limitation Impairs","input":"Slightly Impairing","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1641667891412,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"1","active":"5","base":"5","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+
+
+	{"name":"Combat Skill Levels","roll":"","uid":1641667910619,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"1","active":"3","base":"3","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"No Name Supplied","uid":1641664624181,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1641673979920,"type":"Limited Power","damage":"","range":"","input":"Power Cannot Be Pushed","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1641667155567,"type":"CON","damage":"","range":"","input":"","level":"5","end":"","active":"5","base":"5","XMLID":"CON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1641664619176,"type":"PD","damage":"","range":"","input":"","level":"8","end":"","active":"8","base":"8","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1641664637801,"type":"ED","damage":"","range":"","input":"","level":"8","end":"","active":"8","base":"8","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1641664670672,"type":"REC","damage":"","range":"","input":"","level":"4","end":"","active":"4","base":"4","XMLID":"REC","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1641664681416,"type":"END","damage":"","range":"","input":"","level":"30","end":"","active":"6","base":"6","XMLID":"END","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1641668582536,"type":"STUN","damage":"","range":"","input":"","level":"5","end":"","active":"3","base":"3","XMLID":"STUN","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1641664793939,"type":"Hand-To-Hand Attack","damage":"4d6","range":"","input":"","level":"4","end":"3","active":"35","base":"20","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1641674219043,"type":"Hand-To-Hand Attack","damage":"4d6","range":"","input":"","level":"0"},{"value":"+¾","name":"","uid":1641674219046,"type":"Variable Advantage","damage":"4d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Plant Manipulation MP","uid":1641665260898,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Plant Twist","uid":1641665166966,"type":"Entangle","damage":"5d6, 3 PD/3 ED","range":"300m","input":"","level":"3","end":"2","active":"60","base":"40","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1641665718500,"type":"Reduced Endurance","damage":"5d6, 3 PD/3 ED","range":"300m","input":"Half END","level":"0"},{"value":"+¼","name":"","uid":1641665718502,"type":"Half Range Modifier","damage":"5d6, 3 PD/3 ED","range":"300m","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1641665718495,"type":"+2d6 Additional BODY","damage":"5d6, 3 PD/3 ED","range":"300m","input":"","level":"2"}]},
+	{"name":"Tricky Twins","uid":1641665504308,"type":"Entangle","damage":"5d6, 3 PD/3 ED","range":"300m","input":"","level":"3","end":"6","active":"60","base":"40","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1641665797349,"type":"Area Of Effect","damage":"5d6, 3 PD/3 ED","range":"300m","input":"Any Area","level":"4"}],"adders":[{"name":"No Name Supplied","uid":1641665778616,"type":"+2d6 Additional BODY","damage":"5d6, 3 PD/3 ED","range":"300m","input":"","level":"2"}]},
+	{"name":"Strangle","uid":1641665828617,"type":"Blast","damage":"5d6","range":"250m","input":"PD","level":"5","end":"2","active":"56","base":"25","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1641666349706,"type":"Attack Versus Alternate Defense","damage":"5d6","range":"250m","input":"Life Support (Self-Contained Breathing); target holds his breathVery Common -> Uncommon","level":"0"},{"value":"+½","name":"","uid":1641666349708,"type":"Constant","damage":"5d6","range":"250m","input":"","level":"0"},{"value":"+¼","name":"","uid":1641666349713,"type":"Reduced Endurance","damage":"5d6","range":"250m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Plant Punch","uid":1641666143657,"type":"Blast","damage":"8d6","range":"400m","input":"PD","level":"8","end":"2","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1641666434971,"type":"Reduced Endurance","damage":"8d6","range":"400m","input":"Half END","level":"0"},{"value":"+¼","name":"","uid":1641666454197,"type":"Half Range Modifier","damage":"8d6","range":"400m","input":"","level":"0"}],"adders":[]},
+	{"name":"Pollen Blindness","uid":1641666278518,"type":"Flash","damage":"5d6","range":"var.","input":"Sight Group","level":"5","end":"2","active":"56","base":"25","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+½","name":"","uid":1641666739365,"type":"Area Of Effect","damage":"5d6","range":"var.","input":"Radius","level":"8"},{"value":"+¼","name":"","uid":1641666739368,"type":"Personal Immunity","damage":"5d6","range":"var.","input":"","level":"0"},{"value":"+¼","name":"","uid":1641666739369,"type":"Half Range Modifier","damage":"5d6","range":"var.","input":"","level":"0"},{"value":"-¼","name":"","uid":1641666739370,"type":"Limited Range","damage":"5d6","range":"var.","input":"","level":"0"},{"value":"-½","name":"","uid":1641666739391,"type":"Conditional Power","damage":"5d6","range":"var.","input":"Power Does Not Work In Darkness","level":"0"},{"value":"+¼","name":"","uid":1641666745850,"type":"Reduced Endurance","damage":"5d6","range":"var.","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Pollen Bomb - ","uid":1641669083045,"type":"Change Environment","damage":"","range":"var.","input":"","level":"0","end":"6","active":"59","base":"34","XMLID":"CHANGEENVIRONMENT","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1641670166381,"type":"Area Of Effect","damage":"","range":"var.","input":"Radius","level":"8"},{"value":"+¼","name":"","uid":1641670188693,"type":"Personal Immunity","damage":"","range":"var.","input":"","level":"0"},{"value":"-½","name":"","uid":1641670262379,"type":"Conditional Power","damage":"","range":"var.","input":"Power does not work in Common Circumstances","level":"0"},{"value":"-¼","name":"","uid":1641670299119,"type":"Limited Range","damage":"","range":"var.","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1641670079838,"type":"Suffocation","damage":"","range":"var.","input":"","level":"0"},{"name":"No Name Supplied","uid":1641670102907,"type":"-3 PER Roll","damage":"","range":"var.","input":"Normal Sight","level":"3"},{"name":"No Name Supplied","uid":1641670136799,"type":"-6m of any mode of Movement","damage":"","range":"var.","input":"","level":"6"},{"name":"No Name Supplied","uid":1641670212266,"type":"Long-Lasting","damage":"","range":"var.","input":"1 Turn","level":"0"}]},
+	{"name":"Tree Whip","uid":1641666849178,"type":"Blast","damage":"6½d6","range":"330m","input":"PD","level":"6","end":"6","active":"58","base":"33","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1641667218494,"type":"Half Range Modifier","damage":"6½d6","range":"330m","input":"","level":"0"},{"value":"+½","name":"","uid":1641667171920,"type":"Double Knockback","damage":"6½d6","range":"330m","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1641667271705,"type":"+½ d6","damage":"6½d6","range":"330m","input":"","level":"0"}]},
+	{"name":"Plant Wall","uid":1641668849281,"type":"Barrier","damage":"","range":"540m","input":"","level":"10","end":"6","active":"59","base":"59","XMLID":"FORCEWALL","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1641669990434,"type":"Ablative","damage":"","range":"540m","input":"BODY Only","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1641669990429,"type":"Dismissable","damage":"","range":"540m","input":"","level":"0"}]},
+	{"name":"Quicken Plant (Plant become large version of itself)","uid":1641668208899,"type":"Summon","damage":"300-point Giant Plant","range":"","input":"Giant Plant","level":"300","end":"[2]","active":"120","base":"60","XMLID":"SUMMON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1641668213537,"type":"Amicable","damage":"300-point Giant Plant","range":"","input":"Slavishly Devoted","level":"0"},{"value":"-1½","name":"","uid":1641668213609,"type":"Charges","damage":"300-point Giant Plant","range":"","input":"2","level":"0"},{"value":"-½","name":"","uid":1641668213652,"type":"Extra Time","damage":"300-point Giant Plant","range":"","input":"Full Phase","level":"0"},{"value":"-½","name":"","uid":1641668213655,"type":"Summoned Being Must Inhabit Locale","damage":"300-point Giant Plant","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Cause plant to grown and produce edible fruit","uid":1641669517981,"type":"Transform","damage":"4d6","range":"","input":"Plant -> edible fruitMajor","level":"4","end":"4","active":"40","base":"40","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-2","name":"","uid":1641674101281,"type":"Limited Power","damage":"4d6","range":"","input":"Power loses almost all of its effectiveness","level":"0"},{"value":"-½","name":"","uid":1641674101283,"type":"No Range","damage":"4d6","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1641674101290,"type":"Concentration","damage":"4d6","range":"","input":"½ DCV","level":"0"},{"value":"-3","name":"","uid":1641674101332,"type":"Extra Time","damage":"4d6","range":"","input":"1 Hour","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1641674101268,"type":"Healed back by","damage":"4d6","range":"","input":"","level":"0"}]},
+	{"name":"Holistic Healing","uid":1641666523370,"type":"Healing","damage":"6d6","range":"","input":"BODY","level":"6","end":"12","active":"60","base":"60","XMLID":"HEALING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-2","name":"","uid":1641674164168,"type":"Limited Power","damage":"6d6","range":"","input":"Power loses almost all of its effectiveness","level":"0"},{"value":"-½","name":"","uid":1641674164204,"type":"Requires A Roll","damage":"6d6","range":"","input":"Skill roll","level":"0"},{"value":"-¾","name":"","uid":1641674164213,"type":"Concentration","damage":"6d6","range":"","input":"0 DCV","level":"0"},{"value":"-¾","name":"","uid":1641674164256,"type":"Extra Time","damage":"6d6","range":"","input":"1 Minute","level":"0"},{"value":"-½","name":"","uid":1641674164276,"type":"Increased Endurance Cost","damage":"6d6","range":"","input":"x2 END","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"No Name Supplied","uid":1641664793939,"gameEdition":6,"tool":"4d6, Hand-To-Hand Attack , 3 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Plant Twist","uid":1641665166966,"gameEdition":6,"tool":"5d6, 3 PD/3 ED, Entangle 300m, 2 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Tricky Twins","uid":1641665504308,"gameEdition":6,"tool":"5d6, 3 PD/3 ED, Entangle 300m, 6 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Strangle","uid":1641665828617,"gameEdition":6,"tool":"5d6, Blast (vs. PD) 250m, 2 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Plant Punch","uid":1641666143657,"gameEdition":6,"tool":"8d6, Blast (vs. PD) 400m, 2 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Pollen Blindness","uid":1641666278518,"gameEdition":6,"tool":"5d6, Flash (vs. Sight Group) var., 2 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Pollen Bomb - ","uid":1641669083045,"gameEdition":6,"tool":"Change Environment var., 6 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Tree Whip","uid":1641666849178,"gameEdition":6,"tool":"6½d6, Blast (vs. PD) 330m, 6 end.","diceMod":0,"dice":6,"halfDice":true,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Cause plant to grown and produce edible fruit","uid":1641669517981,"gameEdition":6,"tool":"4d6, Transform (vs. Plant -> edible fruit,Major) , 4 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
