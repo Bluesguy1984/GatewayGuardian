@@ -1,9 +1,9 @@
 {
 "appversion":"20201025",
-"exportid":"20240811081126",
+"exportid":"20261028075331",
 "name":"Adobe Man",
 "playername":"Ben",
-"version":3.0,
+"version":3.2,
 "edition":6,
 "stats":{
 "siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
@@ -20,9 +20,9 @@
 "omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
 "dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
 "pd":{"value":13,"roll":"12-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":"13/35 PD (0/22 rPD)"},
-"pdr":{"value":13,"roll":"12-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":"13/35 PD (0/22 rPD)"},
+"pdr":{"value":0,"roll":"12-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":22,"roll":"16-","mod":0},"notes":"13/35 PD (0/22 rPD)"},
 "ed":{"value":13,"roll":"12-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":"13/35 ED (0/22 rED)"},
-"edr":{"value":13,"roll":"12-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":"13/35 ED (0/22 rED)"},
+"edr":{"value":0,"roll":"12-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":22,"roll":"16-","mod":0},"notes":"13/35 ED (0/22 rED)"},
 "per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
 "rec":{"value":15,"roll":"12-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
 "body":{"value":20,"roll":"13-","shortname":"body","name":"Body","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
@@ -54,20 +54,151 @@
 "powers":[
 	{"name":"No Name Supplied","uid":1641622794542,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
 	{"name":"No Name Supplied","uid":1648403034574,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"2","base":"2","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1648403355180,"type":"Safe in High Radiation","damage":"","range":"","input":"","level":"0"}]},
-	{"name":"Stony Skin","uid":1641612875060,"type":"Resistant Protection","damage":"","range":"","input":"","level":"44","end":"0","active":"82","base":"66","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-Â½","name":"","uid":1653856659803,"type":"Always On","damage":"","range":"","input":"","level":"0"},{"value":"+Â¼","name":"","uid":1653856672579,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[]},
-	{"name":"No Name Supplied","uid":1641612962234,"type":"Density Increase","damage":"800 kg mass, +15 STR, +3 PD/ED, -6m KB","range":"","input":"","level":"3","end":"0","active":"21","base":"12","XMLID":"DENSITYINCREASE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+Â½","name":"","uid":1641622870377,"type":"Reduced Endurance","damage":"800 kg mass, +15 STR, +3 PD/ED, -6m KB","range":"","input":"0 END","level":"0"},{"value":"+Â¼","name":"","uid":1641622893904,"type":"Persistent","damage":"800 kg mass, +15 STR, +3 PD/ED, -6m KB","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Stony Skin","uid":1641612875060,"type":"Resistant Protection","damage":"","range":"","input":"","level":"44","end":"0","active":"82","base":"66","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1653856659803,"type":"Always On","damage":"","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1653856672579,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1641612962234,"type":"Density Increase","damage":"800 kg mass, +15 STR, +3 PD/ED, -6m KB","range":"","input":"","level":"3","end":"0","active":"21","base":"12","XMLID":"DENSITYINCREASE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1641622870377,"type":"Reduced Endurance","damage":"800 kg mass, +15 STR, +3 PD/ED, -6m KB","range":"","input":"0 END","level":"0"},{"value":"+¼","name":"","uid":1641622893904,"type":"Persistent","damage":"800 kg mass, +15 STR, +3 PD/ED, -6m KB","range":"","input":"","level":"0"}],"adders":[]},
 	{"name":"Super Leap","uid":1641612907191,"type":"Leaping","damage":"","range":"","input":"","level":"36","end":"2","active":"23","base":"23","XMLID":"LEAPING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1653257385948,"type":"Forward Movement Only","damage":"","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1653257385947,"type":"Accurate","damage":"","range":"","input":"","level":"0"}]},
 	{"name":"Adobe Man Powers","uid":1653856475859,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
-	{"name":"Seismic Clap","uid":1641613049590,"type":"Blast","damage":"6Â½d6","range":"","input":"ED","level":"6","end":"6","active":"58","base":"33","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+Â¾","name":"","uid":1641613489685,"type":"Area Of Effect","damage":"6Â½d6","range":"","input":"Cone","level":"32"},{"value":"-Â½","name":"","uid":1641613615795,"type":"No Range","damage":"6Â½d6","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1641613631673,"type":"+Â½ d6","damage":"6Â½d6","range":"","input":"","level":"0"}]},
-	{"name":"Quake","uid":1641613245991,"type":"Blast","damage":"6d6","range":"","input":"PD","level":"6","end":"6","active":"60","base":"30","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+Â¾","name":"","uid":1653257376826,"type":"Area Of Effect","damage":"6d6","range":"","input":"Radius","level":"16"},{"value":"-Â½","name":"","uid":1653257376829,"type":"No Range","damage":"6d6","range":"","input":"","level":"0"},{"value":"+Â¼","name":"","uid":1653257376834,"type":"Hole In The Middle","damage":"6d6","range":"","input":"fixed size","level":"0"}],"adders":[]}],
+	{"name":"Seismic Clap","uid":1641613049590,"type":"Blast","damage":"6½d6","range":"","input":"ED","level":"6","end":"6","active":"58","base":"33","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1641613489685,"type":"Area Of Effect","damage":"6½d6","range":"","input":"Cone","level":"32"},{"value":"-½","name":"","uid":1641613615795,"type":"No Range","damage":"6½d6","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1641613631673,"type":"+½ d6","damage":"6½d6","range":"","input":"","level":"0"}]},
+	{"name":"Quake","uid":1641613245991,"type":"Blast","damage":"6d6","range":"","input":"PD","level":"6","end":"6","active":"60","base":"30","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1653257376826,"type":"Area Of Effect","damage":"6d6","range":"","input":"Radius","level":"16"},{"value":"-½","name":"","uid":1653257376829,"type":"No Range","damage":"6d6","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1653257376834,"type":"Hole In The Middle","damage":"6d6","range":"","input":"fixed size","level":"0"}],"adders":[]}],
 "equipment":[
-	{"name":"No Name Supplied","uid":1648273595724,"type":"","weight":"","value":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-Â¼","name":"","uid":1648273595722,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
-	{"name":"Encrypted Radio","uid":1648273595756,"type":"Radio Perception/Transmission","weight":"","value":"","damage":"","range":"","input":"","level":"0","end":"0","active":"12","base":"12","XMLID":"RADIOPERCEIVETRANSMIT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-Â½","name":"Encrypted Radio","uid":1648273595753,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[{"name":"Encrypted Radio","uid":1723384733182,"type":"+1 to PER Roll","damage":"","range":"","input":"","level":"1"},{"name":"Encrypted Radio","uid":1723384733183,"type":"Concealed (-1 with Radio Perception/Transmission PER Rolls)","damage":"","range":"","input":"","level":"1"}]},
-	{"name":"Primus Sunglasses","uid":1652650796187,"type":"Flash Defense","weight":"","value":"","damage":"(5 points)","range":"","input":"Sight Group","level":"5","end":"0","active":"5","base":"5","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-1Â¼","name":"Primus Sunglasses","uid":1652650796182,"type":"Focus","damage":"(5 points)","range":"","input":"OAF","level":"0"}],"adders":[]}],
+	{"name":"No Name Supplied","uid":1648273595724,"type":"","weight":"","value":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1648273595722,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Encrypted Radio","uid":1648273595756,"type":"Radio Perception/Transmission","weight":"","value":"","damage":"","range":"","input":"","level":"0","end":"0","active":"12","base":"12","XMLID":"RADIOPERCEIVETRANSMIT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"Encrypted Radio","uid":1648273595753,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[{"name":"Encrypted Radio","uid":1793195352426,"type":"+1 to PER Roll","damage":"","range":"","input":"","level":"1"},{"name":"Encrypted Radio","uid":1793195352427,"type":"Concealed (-1 with Radio Perception/Transmission PER Rolls)","damage":"","range":"","input":"","level":"1"}]},
+	{"name":"Primus Sunglasses","uid":1652650796187,"type":"Flash Defense","weight":"","value":"","damage":"(5 points)","range":"","input":"Sight Group","level":"5","end":"0","active":"5","base":"5","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-1¼","name":"Primus Sunglasses","uid":1652650796182,"type":"Focus","damage":"(5 points)","range":"","input":"OAF","level":"0"}],"adders":[]}],
 "martialArts":[	
-	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"Â½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:Â½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
 "rolls":[
-	{"name":"Seismic Clap","uid":1641613049590,"gameEdition":6,"tool":"6Â½d6, Blast (vs. ED) , 6 end.","diceMod":0,"dice":6,"halfDice":true,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Seismic Clap","uid":1641613049590,"gameEdition":6,"tool":"6½d6, Blast (vs. ED) , 6 end.","diceMod":0,"dice":6,"halfDice":true,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Quake","uid":1641613245991,"gameEdition":6,"tool":"6d6, Blast (vs. PD) , 6 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
