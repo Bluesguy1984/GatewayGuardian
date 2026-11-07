@@ -1,6 +1,6 @@
 {
 "appversion":"20201025",
-"exportid":"20261028075003",
+"exportid":"20261106233635",
 "name":"ShadowStrike",
 "playername":"Robert Bruce",
 "version":3.2,
@@ -78,15 +78,16 @@
 	{"name":"No Name Supplied","uid":1641159058500,"type":"Resistant Protection","damage":"","range":"","input":"","level":"16","end":"0","active":"24","base":"24","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
 	{"name":"No Name Supplied","uid":1641159078325,"type":"PD","damage":"","range":"","input":"","level":"12","end":"","active":"12","base":"12","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
 	{"name":"No Name Supplied","uid":1641159107133,"type":"ED","damage":"","range":"","input":"","level":"12","end":"","active":"12","base":"12","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
-	{"name":"Mutant Powers","uid":1641158869370,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"39","base":"39","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Mutant Powers","uid":1641158869370,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"40","base":"40","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
 	{"name":"Only The Shadow Knows","uid":1641158869379,"type":"Invisibility","damage":"","range":"","input":"Sight Group","level":"0","end":"2","active":"25","base":"25","XMLID":"INVISIBILITY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1653279146796,"type":"","damage":"","range":"","input":"","level":"0"}]},
 	{"name":"Blip","uid":1653282622815,"type":"Teleportation","damage":"8m","range":"","input":"","level":"8","end":"1","active":"10","base":"8","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1653282805970,"type":"Safe Blind Teleport","damage":"8m","range":"","input":"","level":"0"}],"adders":[]},
 	{"name":"The Shadow Is Everywhere","uid":1641158869493,"type":"Teleportation","damage":"30m","range":"","input":"","level":"30","end":"3","active":"35","base":"35","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1653264728400,"type":"x2 Increased Mass","damage":"30m","range":"","input":"","level":"1"}]},
 	{"name":"The Shadow Touches All","uid":1641158869477,"type":"Stretching","damage":"20m","range":"","input":"","level":"20","end":"3","active":"35","base":"20","XMLID":"STRETCHING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1653264893835,"type":"Indirect","damage":"20m","range":"","input":"Source Point is the Character, path can change with every use","level":"0"},{"value":"+¼","name":"","uid":1653264893837,"type":"Does Not Cross Intervening Space","damage":"20m","range":"","input":"","level":"0"}],"adders":[]},
-	{"name":"Energy Tethers","uid":1641158869452,"type":"Entangle","damage":"3d6, 3 PD/3 ED (standard effect: 3 BODY, 3 PD/3 ED)","range":"300m","input":"","level":"3","end":"3","active":"30","base":"30","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]}],
+	{"name":"Energy Tethers","uid":1641158869452,"type":"Entangle","damage":"3d6, 3 PD/3 ED (standard effect: 3 BODY, 3 PD/3 ED)","range":"300m","input":"","level":"3","end":"3","active":"30","base":"30","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Purple Shadow","uid":1793835253679,"type":"Darkness","damage":"6m radius","range":"300m","input":"Sight Group","level":"6","end":"4","active":"37","base":"30","XMLID":"DARKNESS","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1793835558799,"type":"Personal Immunity","damage":"6m radius","range":"300m","input":"","level":"0"}],"adders":[]}],
 "equipment":[
 	{"name":"No Name Supplied","uid":1648273590506,"type":"","weight":"","value":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1648273590504,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
-	{"name":"Encrypted Radio","uid":1648273590538,"type":"Radio Perception/Transmission","weight":"","value":"","damage":"","range":"","input":"","level":"0","end":"0","active":"12","base":"12","XMLID":"RADIOPERCEIVETRANSMIT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"Encrypted Radio","uid":1648273590535,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[{"name":"Encrypted Radio","uid":1793195356059,"type":"+1 to PER Roll","damage":"","range":"","input":"","level":"1"},{"name":"Encrypted Radio","uid":1793195356060,"type":"Concealed (-1 with Radio Perception/Transmission PER Rolls)","damage":"","range":"","input":"","level":"1"}]},
+	{"name":"Encrypted Radio","uid":1648273590538,"type":"Radio Perception/Transmission","weight":"","value":"","damage":"","range":"","input":"","level":"0","end":"0","active":"12","base":"12","XMLID":"RADIOPERCEIVETRANSMIT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"Encrypted Radio","uid":1648273590535,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[{"name":"Encrypted Radio","uid":1794033282440,"type":"+1 to PER Roll","damage":"","range":"","input":"","level":"1"},{"name":"Encrypted Radio","uid":1794033282441,"type":"Concealed (-1 with Radio Perception/Transmission PER Rolls)","damage":"","range":"","input":"","level":"1"}]},
 	{"name":"Primus Sunglasses","uid":1652650808082,"type":"Flash Defense","weight":"","value":"","damage":"(5 points)","range":"","input":"Sight Group","level":"5","end":"0","active":"5","base":"5","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-1¼","name":"Primus Sunglasses","uid":1652650808077,"type":"Focus","damage":"(5 points)","range":"","input":"OAF","level":"0"}],"adders":[]}],
 "martialArts":[	
 	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
@@ -99,6 +100,138 @@
 	},{"name":"Martial Dodge","gameEdition":6 ,"ocvMod":0,"dcvMod":5,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Dodge, Affects All Attacks, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Dodge:½ Phase, -- OCV, +5 DCV, Dodge, Affects All Attacks, Abort","rngMod":0, "abort":true
 	}],
 "rolls":[
-	{"name":"Energy Tethers","uid":1641158869452,"gameEdition":6,"tool":"3d6, 3 PD/3 ED (standard effect: 3 BODY, 3 PD/3 ED), Entangle 300m, 3 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+	{"name":"Energy Tethers","uid":1641158869452,"gameEdition":6,"tool":"3d6, 3 PD/3 ED (standard effect: 3 BODY, 3 PD/3 ED), Entangle 300m, 3 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Purple Shadow","uid":1793835253679,"gameEdition":6,"tool":"6m radius, Darkness (vs. Sight Group) 300m, 4 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
