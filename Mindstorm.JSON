@@ -1,6 +1,6 @@
 {
 "appversion":"20201025",
-"exportid":"20261028075151",
+"exportid":"20261108122217",
 "name":"Mindstorm",
 "playername":"Chris",
 "version":3.2,
@@ -19,10 +19,10 @@
 "dcv":{"value":7,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
 "omcv":{"value":7,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
 "dmcv":{"value":7,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
-"pd":{"value":6,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"6/15 PD (0/9 rPD)"},
-"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":9,"roll":"12-","mod":0},"notes":"6/15 PD (0/9 rPD)"},
-"ed":{"value":6,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"6/15 ED (0/9 rED)"},
-"edr":{"value":0,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":9,"roll":"12-","mod":0},"notes":"6/15 ED (0/9 rED)"},
+"pd":{"value":6,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"6/18 PD (0/12 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"13-","mod":0},"notes":"6/18 PD (0/12 rPD)"},
+"ed":{"value":6,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"6/18 ED (0/12 rED)"},
+"edr":{"value":0,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"13-","mod":0},"notes":"6/18 ED (0/12 rED)"},
 "per":{"value":20,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
 "rec":{"value":10,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
 "body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
@@ -53,7 +53,7 @@
 	{"name":"PS (Tutor) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1337994817608,"type":"Professional Skill","input":"Tutor","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Tutor 13-"},
 	{"name":"Research ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1755129060720,"type":"Inventor","input":"","level":"0","active":"3","base":"3","XMLID":"INVENTOR","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Research 13-"}],
 "talents":[
-	{"name":"Combat Luck ","roll":"","uid":1751647993028,"type":"Combat Luck","input":"","level":"3","active":"18","base":"18","XMLID":"COMBAT_LUCK","modifiers":[],"adders":[]}],
+	{"name":"Combat Luck ","roll":"","uid":1751647993028,"type":"Combat Luck","input":"","level":"4","active":"24","base":"24","XMLID":"COMBAT_LUCK","modifiers":[],"adders":[]}],
 "perks":[
 	{"name":"Fringe Benefit ","roll":"","uid":1754965505379,"type":"Fringe Benefit","input":"","level":"0","active":"10","base":"10","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1754967048869,"type":"Local Police Powers","input":"","level":"0"},{"name":"No Name Supplied","uid":1754967048870,"type":"Weapon Permit (where appropriate)","input":"","level":"0"},{"name":"No Name Supplied","uid":1754967048871,"type":"Diplomatic Immunity","input":"","level":"0"},{"name":"No Name Supplied","uid":1754967048872,"type":"Membership","input":"","level":"0"},{"name":"No Name Supplied","uid":1754967048890,"type":"Law Enforcement Rank","input":"Police officer","level":"0"}]}],
 "disads":[
@@ -90,3 +90,134 @@
 	{"name":"No Name Supplied","uid":1758825274873,"gameEdition":6,"tool":"(25 STR), Telekinesis LOS, 6 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
